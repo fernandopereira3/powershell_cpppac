@@ -1,0 +1,9 @@
+
+Name             : cpppac.com
+InterfaceAlias   : Ethernet
+InterfaceIndex   : 18
+NetworkCategory  : DomainAuthenticated
+IPv4Connectivity : Internet
+IPv6Connectivity : NoTraffic
+
+
