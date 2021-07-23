@@ -3,7 +3,7 @@
 $interface = (Get-NetIPAddress -AddressFamily IPv4 -InterfaceAlias "Ethernet" | Where-Object {$_.InterfaceAlias -match 'Ethernet' } |Select-Object -ExpandProperty InterfaceIndex)
 
 cls
-echo "Hi! Vou configurar este PC para o Dominio cpppac.com"
+echo "Oi! Vou configurar este PC para o Dominio cpppac.com"
 
 #########SET DNS PARA .2################
 Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses (”10.14.180.2”)
