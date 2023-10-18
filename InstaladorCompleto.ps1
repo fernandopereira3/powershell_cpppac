@@ -1,5 +1,5 @@
 ﻿mkdir C:\scripts 
-cp \\10.14.180.5\programas\scripst\WINDOWS\*.ps1 C:\scripts\ 
+cp \\1SERVER\programas\scripst\WINDOWS\*.ps1 C:\scripts\ 
 cd C:\scripts\
 cls
 echo "
@@ -132,8 +132,8 @@ echo "
                                                                
 "
 
-cp -Force -R \\10.14.180.5\programas\beto C:\
-cp -Force -R \\10.14.180.5\programas\sia C:\ 
+cp -Force -R \\SERVER\programas\beto C:\
+cp -Force -R \\SERVER\programas\sia C:\ 
 New-Item -ItemType SymbolicLink -Path "$Home\Desktop\" -Name "Siscar" -Value "C:\beto\SisCar\SisCar.exe"
 
 # Instalar Office

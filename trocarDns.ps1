@@ -6,7 +6,7 @@ cls
 echo "Oi! Vou configurar este PC para o Dominio cpppac.com"
 
 #########SET DNS PARA .2################
-Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses (”10.14.180.2”)
+Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses ("DNS SERVER")
 cls
 echo "Adicionado DNSs com sucesso"
 
@@ -28,7 +28,7 @@ Restart-Computer
 
 
 #wimrm quickconfig -force
-#Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses ("10.1.6.222",”192.168.10.10”,”10.14.180.2”,”10.14.180.10”)
+#Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses ("10.1.6.222",ï¿½192.168.10.10ï¿½,ï¿½10.14.180.2ï¿½,ï¿½10.14.180.10ï¿½)
 #Get-NetIPAddress -AddressFamily IPv4 -InterfaceAlias "Ethernet" >> \\10.14.180.5\programas\textos\
 #Clear-Variable -Name MyVariable
 

@@ -11,4 +11,4 @@ echo "
 " 
 sleep 5
 cls
-invoke-expression -Command \\10.14.180.5\programas\scripts\WINDOWS\menu1.ps1
+invoke-expression -Command \\server\programas\scripts\WINDOWS\menu1.ps1

@@ -131,7 +131,7 @@ cls
 echo "Oi! Agora vou configurar este PC para o Dominio cpppac.com"
 
 #########SET DNS PARA .2################
-Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses (”10.14.180.2”)
+Set-DnsClientServerAddress -InterfaceIndex $interface -ServerAddresses (”DNS SERVER”)
 cls
 echo "Adicionado DNSs com sucesso"
 

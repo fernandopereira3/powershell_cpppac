@@ -7,7 +7,7 @@ $op = Read-Host "qual sua opcao
 #while ($op -ne 5){
         switch ($op)
         {
-            1 {invoke-expression -Command \\10.14.180.5\programas\scripts\WINDOWS\exemplo1.ps1; Break}
+            1 {invoke-expression -Command \\SERVER\programas\scripts\WINDOWS\exemplo1.ps1; Break}
             2 {"It is two."; Break}
             3 {"It is three."; Break}
             4 {"It is four."; Break}
